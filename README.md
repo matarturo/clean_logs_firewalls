@@ -1,9 +1,9 @@
-/*********************************************************************
+##*********************************************************************
     Arturo Mata <arturo.mata@gmail.com>
     https://arturomata.xyz
     Released under the GNU General Public License WITHOUT ANY WARRANTY.
     See LICENSE.TXT for details.
-**********************************************************************/
+##**********************************************************************
 
 # Script de mantenimiento de logs de dispositivos firewalls bajo plataforma GNU/Linux
 Es importante el mantenimiento periódico de estos equipos ya que los archivos logs del entorno GNU/Linux DebianOS 
