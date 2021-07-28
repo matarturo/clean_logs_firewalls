@@ -1,7 +1,8 @@
 #!/bin/bash
-// Autor: Arturo Mata
-// Correo: arturo.mata@gmail.com
+// Autor: Arturo Mata <arturo.mata@gmail.com>
 // Repositorio: https://github.com/matarturo/
+//Released under the GNU General Public License WITHOUT ANY WARRANTY.
+//See LICENSE.TXT for details.
 echo ...INICIANDO MANTENIMIENTO
 rm -R alternatives.log.*
 rm -R lastlog*
