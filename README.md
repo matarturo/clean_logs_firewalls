@@ -5,6 +5,7 @@ Los Scripts en programación son conjuntos de instrucciones escritas en algún l
 Este correr este script se requiere ingresar al equipo con credenciales de usuario < root >
 ```
 $ cd /var/log
+
 $ nano mantenimiento.sh
 ***
 Este correr este script se requiere ingresar al equipo con credenciales de usuario < root >
