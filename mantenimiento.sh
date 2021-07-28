@@ -1,4 +1,7 @@
 #!/bin/bash
+// Autor: Arturo Mata
+// Correo: arturo.mata@gmail.com
+// Repositorio: https://github.com/matarturo/
 echo ...INICIANDO MANTENIMIENTO
 rm -R alternatives.log.*
 rm -R lastlog*
