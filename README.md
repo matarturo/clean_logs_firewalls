@@ -8,7 +8,7 @@ crecen rápidamente y se pueden llenar los discos duros generando problemas de a
 
 ## Instalación
 ***
-```
+
 # Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
 ***
 ```
@@ -18,20 +18,22 @@ $ cd mantenimiento-los_firewalls
 $ sudo cp mantenimiento.sh /var/log
 $ cd /var/log
 ```
-## Para otorgar permisos de ejecución
+# Para otorgar permisos de ejecución
 ***
 ```
 $ sudo chmod 755 mantenimiento.sh
+```
 ***
-```Aun en el directorio < var/log > se escribe la siguiente línea de código < ls -l > y se despliega la 
+Aun en el directorio < var/log > se escribe la siguiente línea de código < ls -l > y se despliega la 
 lista de los diferentes archivos contenido en la referida ubicación, se selecciona el script: 
 mantenimiento.sh, un archivo ejecutable creado para la limpieza de los logs elegidos 
 previamente, garantizando un registro histórico mínimo para casos de auditorías. Para editar el 
 archivo .sh, se deberá utilizar el comando <nano> que corresponde al editor de código nativo 
 de Linux
+
 ```
 $ nano mantenimiento.sh  
-
+```
 ## Ejecución del script
 ***
 ```
@@ -42,10 +44,11 @@ solicitara el uso el comando < sudo > para ejecutar programas con los privilegio
 ***
 ```
 $ sudo ./mantenimiento.sh 
-***
 ```
+***
 Cuando a aparezca en pantalla < ...MANTENIMIENTO FINALIZADO > , ya sta listo el procedimiento de mantenimiento de
 los archivos logs, el paso siguiente es detener el proceso
+***
 ```
 $ exit
-  
+``` 
