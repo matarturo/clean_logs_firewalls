@@ -9,7 +9,8 @@ crecen rápidamente y se pueden llenar los discos duros generando problemas de a
 ## Instalación
 ***
 ```
-Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
+# Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
+***
 ```
 $ cd /var/log
 $ sudo git clone https://github.com/matarturo/mantenimiento_logs_firewalls.git
