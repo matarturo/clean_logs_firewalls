@@ -23,14 +23,13 @@ $ cd /var/log
 ```
 $ sudo chmod 755 mantenimiento.sh
 ```
-***
 Aun en el directorio < var/log > se escribe la siguiente línea de código < ls -l > y se despliega la 
 lista de los diferentes archivos contenido en la referida ubicación, se selecciona el script: 
-mantenimiento.sh, un archivo ejecutable creado para la limpieza de los logs elegidos 
-previamente, garantizando un registro histórico mínimo para casos de auditorías. Para editar el 
-archivo .sh, se deberá utilizar el comando <nano> que corresponde al editor de código nativo 
-de Linux
-***
+mantenimiento.sh, un archivo ejecutable creado para la limpieza de los logs elegidos previamente, 
+garantizando un registro histórico mínimo para casos de auditorías. Para editar el archivo  <.sh >, 
+se deberá utilizar el comando <nano> que corresponde al editor de código nativo 
+de Linux.
+*** 
 ```
 $ sudo nano mantenimiento.sh  
 ```
@@ -45,7 +44,7 @@ solicitara el uso el comando < sudo > para ejecutar programas con los privilegio
 ```
 $ sudo ./mantenimiento.sh 
 ```
-***
+
 Cuando a aparezca en pantalla < ...MANTENIMIENTO FINALIZADO > , ya está listo el procedimiento de mantenimiento de
 los archivos logs, el paso siguiente es detener el proceso.
 ***
