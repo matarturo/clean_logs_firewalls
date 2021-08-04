@@ -1,4 +1,5 @@
 Autor: Arturo Mata <arturo.mata@gmail.com>
+Version: 1.0.0
 Repositorio: https://github.com/matarturo/
 Released under the GNU General Public License WITHOUT ANY WARRANTY.
 See LICENSE.TXT for details.
@@ -14,7 +15,7 @@ Para correr este script se requiere ingresar al equipo con credenciales de usuar
 
 $ cd /var/log
 $ sudo git clone https://github.com/matarturo/mantenimiento_logs_firewalls.git
-$ cd mantenimiento-los_firewalls
+$ cd mantenimiento_logs_firewalls
 $ sudo cp mantenimiento.sh /var/log
 $ cd /var/log
 
