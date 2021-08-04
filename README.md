@@ -1,15 +1,15 @@
-// Autor: Arturo Mata <arturo.mata@gmail.com>
-// Repositorio: https://github.com/matarturo/
-//Released under the GNU General Public License WITHOUT ANY WARRANTY.
-//See LICENSE.TXT for details.
+Autor: Arturo Mata <arturo.mata@gmail.com>
+Repositorio: https://github.com/matarturo/
+Released under the GNU General Public License WITHOUT ANY WARRANTY.
+See LICENSE.TXT for details.
+
 # Script de mantenimiento de logs de dispositivos firewalls bajo plataforma GNU/Linux
+
 Es importante el mantenimiento periódico de estos equipos ya que los archivos logs del entorno GNU/Linux DebianOS 
 crecen rápidamente y se pueden llenar los discos duros generando problemas de almacenamiento de información.
 
-## Instalación
-***
-
-# Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
+# Instalación
+Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
 ***
 ```
 $ cd /var/log
@@ -30,11 +30,11 @@ mantenimiento.sh, un archivo ejecutable creado para la limpieza de los logs eleg
 previamente, garantizando un registro histórico mínimo para casos de auditorías. Para editar el 
 archivo .sh, se deberá utilizar el comando <nano> que corresponde al editor de código nativo 
 de Linux
-
+***
 ```
-$ nano mantenimiento.sh  
+$ sudo nano mantenimiento.sh  
 ```
-## Ejecución del script
+# Ejecución del script
 ***
 ```
 La ejecución el script se debe utilizar la notación < ./ > (punto-diagonal-slash), para que efectúe 
@@ -46,8 +46,8 @@ solicitara el uso el comando < sudo > para ejecutar programas con los privilegio
 $ sudo ./mantenimiento.sh 
 ```
 ***
-Cuando a aparezca en pantalla < ...MANTENIMIENTO FINALIZADO > , ya sta listo el procedimiento de mantenimiento de
-los archivos logs, el paso siguiente es detener el proceso
+Cuando a aparezca en pantalla < ...MANTENIMIENTO FINALIZADO > , ya está listo el procedimiento de mantenimiento de
+los archivos logs, el paso siguiente es detener el proceso.
 ***
 ```
 $ exit
